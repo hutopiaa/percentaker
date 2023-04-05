@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         ShowInTaskbar="{Binding ShowInTaskbar}"
         WindowState="{Binding WindowState}"
-        Title="SystemTrayApp" Height="200" Width="300">
+        Title="{DynamicResource MainWindowTitle}" Height="200" Width="300">
     <Window.DataContext>
         <local:MainWindowViewModel/>
     </Window.DataContext>

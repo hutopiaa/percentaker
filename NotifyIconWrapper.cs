@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Percentaker.Resources;
+using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Reflection;
@@ -82,9 +83,9 @@ namespace Percentaker
 
         private ContextMenuStrip CreateContextMenu()
         {
-            var openItem = new ToolStripMenuItem("Open");
+            var openItem = new ToolStripMenuItem(StringResourceManager.Instance.ReadString(StringResourceManager.OpenSystemTrayMenuString));
             openItem.Click += OpenItemOnClick;
-            var exitItem = new ToolStripMenuItem("Exit");
+            var exitItem = new ToolStripMenuItem(StringResourceManager.Instance.ReadString(StringResourceManager.ExitSystemTrayMenuString));
             exitItem.Click += ExitItemOnClick;
             var contextMenu = new ContextMenuStrip {Items = {openItem, exitItem}};
             contextMenu.Font = new Font(contextMenu.Font.Name, contextMenu.Font.Size + 2);
