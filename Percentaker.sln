@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Percentaker", "Percentaker.csproj", "{07940023-7088-4D49-958D-D5FA84B388BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07940023-7088-4D49-958D-D5FA84B388BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07940023-7088-4D49-958D-D5FA84B388BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07940023-7088-4D49-958D-D5FA84B388BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07940023-7088-4D49-958D-D5FA84B388BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E539FB8-625D-4FF9-B44B-20B8F39D5512}
+	EndGlobalSection
+EndGlobal
