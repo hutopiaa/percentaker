@@ -4,7 +4,7 @@ using System;
 
 namespace Percentaker.Resources
 {
-    public class StringResourceManager
+    public sealed class StringResourceManager
     {
         public const string OpenSystemTrayMenuString = "OpenSystemTrayMenu";
         public const string ExitSystemTrayMenuString = "ExitSystemTrayMenu";
