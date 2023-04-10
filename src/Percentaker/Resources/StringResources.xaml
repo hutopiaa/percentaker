@@ -2,6 +2,6 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
                     xmlns:system="clr-namespace:System;assembly=netstandard">
     <system:String x:Key="MainWindowTitle">Percentaker</system:String>
+    <system:String x:Key="FinanceCalculationTool">Finance calculation tool</system:String>
     <system:String x:Key="OpenSystemTrayMenu">Open</system:String>
-    <system:String x:Key="ExitSystemTrayMenu">Close</system:String>
 </ResourceDictionary>

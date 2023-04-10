@@ -7,7 +7,8 @@ namespace Percentaker.Resources
     public sealed class StringResourceManager
     {
         public const string OpenSystemTrayMenuString = "OpenSystemTrayMenu";
-        public const string ExitSystemTrayMenuString = "ExitSystemTrayMenu";
+        public const string MainWindowTitle = "MainWindowTitle";
+        public const string FinanceCalculationTool = "FinanceCalculationTool";
         private const string CouldNotLoadResourceStringError = "error: could not load resource string";
         private static readonly StringResourceManager instance = new();
 
